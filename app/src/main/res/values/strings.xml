@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">UnitConverter</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="header">Unit Converter</string>
+    <string name="functions">With A Calculator....</string>
+
+    <string name="menu_length">Length</string>
+    <string name="menu_weight">Weight</string>
+    <string name="menu_time">Time</string>
+    <string name="menu_area">Area</string>
+    <string name="menu_dataSize">Data</string>
+    <string name="menu_energy">Energy</string>
+    <string name="menu_numberSystem">Number System</string>
+    <string name="menu_pressure">Pressure</string>
+    <string name="menu_speed">Speed</string>
+    <string name="menu_temperature">Temperature</string>
+    <string name="enter_value">Enter value…</string>
+    <string name="output_value">Output…</string>
+    <string name="to">to</string>
+
+    <!-- ******************Dropdown Values**************** -->
+    <string-array name="length">
+        <item>Kilometer</item>
+        <item>Meter</item>
+        <item>Decimeter</item>
+        <item>Centimeter</item>
+        <item>Millimeter</item>
+        <item>Micrometer</item>
+        <item>Nanometer</item>
+        <item>Nautical mile</item>
+        <item>Mile</item>
+        <item>Yard</item>
+        <item>Foot</item>
+        <item>Inch</item>
+    </string-array>   <!--done-->
+
+    <string-array name="weight">
+        <item>Tonne</item>
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Milligram</item>
+        <item>Pound</item>
+    </string-array>   <!--done-->
+
+    <string-array name="time">
+        <item>Millisecond</item>
+        <item>Second</item>
+        <item>Minute</item>
+        <item>Hour</item>
+        <item>Day</item>
+    </string-array>     <!--done-->
+
+    <string-array name="area">
+        <item>Square Kilometer</item>
+        <item>Square Meter</item>
+        <item>Square Mile</item>
+        <item>Square Yard</item>
+        <item>Square Foot</item>
+        <item>Square inch</item>
+        <item>Hectare</item>
+        <item>Acre</item>
+    </string-array>     <!--done-->
+
+    <string-array name="dataSize">
+        <item>Bit</item>
+        <item>Byte</item>
+        <item>KiloByte</item>
+        <item>MegaByte</item>
+        <item>GigaByte</item>
+        <item>TeraByte</item>
+        <item>PetaByte</item>
+    </string-array> <!--done-->
+
+    <string-array name="energy">
+        <item>Joule</item>
+        <item>KiloJoule</item>
+        <item>Gram Calorie</item>
+        <item>KiloCalorie</item>
+        <item>Watt Hour</item>
+        <item>Kilowatt Hour</item>
+    </string-array>   <!--done-->
+
+    <string-array name="pressure">
+        <item>Bar</item>
+        <item>Pascal</item>
+        <item>Pound per square inch</item>
+        <item>Standard atmosphere</item>
+        <item>Torr</item>
+    </string-array> <!--done-->
+
+    <string-array name="speed">
+        <item>Miles per hour</item>
+        <item>Foot per second</item>
+        <item>Meter per second</item>
+        <item>Kilometer per hour</item>
+        <item>Knot</item>
+    </string-array>    <!--done-->
+
+    <string-array name="temperature">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>  <!--done-->
+
+    <!-- ************************************************* -->
+
+
+    <!-- *****************calculator************************** -->
+<!--    AC	<-	+	- -->
+<!--    7	8	9	*-->
+<!--    4	5	6	/-->
+<!--    1	2  	3	%-->
+<!--    CL 	0	.	=-->
+
+    <string name="change_sign">+/-</string>
+    <string name="equal">=</string>
+    <string name="decimal">.</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="power">^</string>
+    <string name="division">/</string>
+    <string name="multiply">X</string>
+    <string name="subtract">-</string>
+    <string name="addition">+</string>
+    <string name="cut">C</string>
+    <string name="ac">AC</string>
+
+    <!-- ************************************************* -->
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button">Button</string>
+    <string name="Calculate">Convert</string>
+    <string name="basic_calculator">Basic calculator</string>
+    <string name="conversions">Conversions</string>
+    <string name="textview">TextView</string>
+    <string name="settings">Settings</string>
+    <string name="history">History</string>
+    <string name="share">Share</string>
+
+</resources>

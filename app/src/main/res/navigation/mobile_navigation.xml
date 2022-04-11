@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/calcFragment">
+
+
+    <fragment
+        android:id="@+id/nav_length"
+        android:name="com.vijaygaike.unitconverter.ui.length.LengthFragment"
+        android:label="@string/menu_length"
+        tools:layout="@layout/fragment_length" />
+
+    <fragment
+        android:id="@+id/nav_weight"
+        android:name="com.vijaygaike.unitconverter.ui.weight.WeightFragment"
+        android:label="@string/menu_weight"
+        tools:layout="@layout/fragment_weight" />
+
+    <fragment
+        android:id="@+id/nav_time"
+        android:name="com.vijaygaike.unitconverter.ui.time.TimeFragment"
+        android:label="@string/menu_time"
+        tools:layout="@layout/fragment_time" />
+    <fragment
+        android:id="@+id/nav_area"
+        android:name="com.vijaygaike.unitconverter.ui.area.AreaFragment"
+        android:label="@string/menu_area"
+        tools:layout="@layout/fragment_area" />
+    <fragment
+        android:id="@+id/nav_dataSize"
+        android:name="com.vijaygaike.unitconverter.ui.dataSize.DataSizeFragment"
+        android:label="@string/menu_dataSize"
+        tools:layout="@layout/fragment_data_size" />
+    <fragment
+        android:id="@+id/nav_energy"
+        android:name="com.vijaygaike.unitconverter.ui.energy.EnergyFragment"
+        android:label="@string/menu_energy"
+        tools:layout="@layout/fragment_energy" />
+    <fragment
+        android:id="@+id/nav_pressure"
+        android:name="com.vijaygaike.unitconverter.ui.pressure.PressureFragment"
+        android:label="@string/menu_pressure"
+        tools:layout="@layout/fragment_pressure" />
+    <fragment
+        android:id="@+id/nav_temperature"
+        android:name="com.vijaygaike.unitconverter.ui.temperature.TemperatureFragment"
+        android:label="@string/menu_temperature"
+        tools:layout="@layout/fragment_temperature" />
+    <fragment
+        android:id="@+id/nav_speed"
+        android:name="com.vijaygaike.unitconverter.ui.speed.SpeedFragment"
+        android:label="@string/menu_speed"
+        tools:layout="@layout/fragment_speed" />
+    <fragment
+        android:id="@+id/calcFragment"
+        android:name="com.vijaygaike.unitconverter.ui.basicCalc.CalcFragment"
+        android:label="fragment_calc"
+        tools:layout="@layout/fragment_calc" />
+</navigation>
